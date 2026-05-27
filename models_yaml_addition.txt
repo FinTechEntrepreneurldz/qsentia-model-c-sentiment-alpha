@@ -1,0 +1,8 @@
+- id: qsentia_model_c_sentiment_alpha
+  name: "QSentia Model C Sentiment Alpha"
+  description: "Sector-neutral Model C equity MLP with live FinBERT news sentiment overlay and Alpaca paper execution."
+  repo: "FinTechEntrepreneurldz/qsentia-model-c-sentiment-alpha"
+  logs_path: "logs"
+  branch: "main"
+  enabled: true
+  color: "#6366f1"

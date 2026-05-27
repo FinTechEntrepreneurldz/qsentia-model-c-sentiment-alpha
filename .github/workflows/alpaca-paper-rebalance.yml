@@ -1,0 +1,83 @@
+name: Alpaca Paper Rebalance
+
+on:
+  workflow_dispatch:
+    inputs:
+      force_rebalance:
+        description: "Force a rebalance even if cadence says hold"
+        required: false
+        default: "false"
+        type: choice
+        options: ["false", "true"]
+      dry_run:
+        description: "Skip Alpaca connection and order submission"
+        required: false
+        default: "false"
+        type: choice
+        options: ["false", "true"]
+  schedule:
+    - cron: "30 19 * * 1-5" # 3:30 PM ET during EDT; use 20:30 UTC during EST.
+
+permissions:
+  contents: write
+
+concurrency:
+  group: qsentia-model-c-sentiment-alpha
+  cancel-in-progress: false
+
+jobs:
+  paper-rebalance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+      ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+      SUBMIT_ORDERS: "true"
+      SENTIMENT_ENABLE_TRANSFORMER: "true"
+      REQUIRE_LIVE_SENTIMENT: "false"
+      REBALANCE_DAYS: "5"
+      SENTIMENT_ALPHA: "0.35"
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Cache Hugging Face
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-finbert-${{ runner.os }}-${{ hashFiles('pyproject.toml') }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[nlp,test]"
+
+      - name: Run tests
+        run: pytest
+
+      - name: Run paper trader
+        run: |
+          ARGS=""
+          if [ "${{ inputs.force_rebalance }}" = "true" ]; then ARGS="$ARGS --force-rebalance"; fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          python scripts/run_paper_trader.py $ARGS
+
+      - name: Commit dashboard logs
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A logs/
+          if git diff --cached --quiet; then
+            echo "No log changes to commit."
+          else
+            git commit -m "Update dashboard logs [skip ci]"
+            git push
+          fi
