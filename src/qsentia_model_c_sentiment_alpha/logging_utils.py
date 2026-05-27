@@ -90,8 +90,10 @@ def log_outputs(
         sub = pd.DataFrame(columns=["symbol", "side", "qty", "notional", "order_id", "status"])
     sub.insert(0, "timestamp_utc", ts)
     sub.to_csv(LOG_DIR / "orders" / "latest_orders.csv", index=False)
+    sub.to_csv(LOG_DIR / "orders" / "latest_submitted_orders.csv", index=False)
     if not submitted.empty:
         append_csv(LOG_DIR / "orders" / "orders.csv", sub)
+        append_csv(LOG_DIR / "orders" / "submitted_orders.csv", sub)
 
     sent = sentiment_rows.copy()
     if sent.empty:
