@@ -7,6 +7,6 @@ dist/
 build/
 *.egg-info/
 .env
-logs/**/*.csv
-logs/**/*.json
+!logs/**/*.csv
+!logs/**/*.json
 !logs/**/.gitkeep
