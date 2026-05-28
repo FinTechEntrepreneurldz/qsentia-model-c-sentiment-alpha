@@ -1,4 +1,5 @@
 {
+  "account_status": "dry_run",
   "account": {
     "buying_power": 200000.0,
     "cash": 100000.0,
@@ -7,6 +8,8 @@
     "short_value": 0.0,
     "status": "dry_run"
   },
+  "cash": 100000.0,
+  "equity": 100000.0,
   "decision": {
     "action": "rebalance",
     "do_rebalance": true,
@@ -223,6 +226,7 @@
       "url": "https://news.google.com/rss/search?q=%22DVN%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
     }
   ],
+  "portfolio_value": 100000.0,
   "sentiment_rows": 300,
   "sentiment_sources": {
     "google_news": 199,

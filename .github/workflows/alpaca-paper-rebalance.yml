@@ -37,6 +37,7 @@ jobs:
       REQUIRE_LIVE_SENTIMENT: "false"
       REBALANCE_DAYS: "5"
       SENTIMENT_ALPHA: "0.35"
+      DEFAULT_ACCOUNT_VALUE: "1000000"
 
     steps:
       - name: Checkout repo
@@ -70,7 +71,7 @@ jobs:
           python scripts/run_paper_trader.py $ARGS
 
       - name: Commit dashboard logs
-        if: always()
+        if: always() && inputs.dry_run != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

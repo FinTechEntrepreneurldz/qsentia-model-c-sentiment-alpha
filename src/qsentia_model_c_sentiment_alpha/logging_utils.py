@@ -39,13 +39,17 @@ def log_outputs(
 ) -> None:
     ensure_log_dirs()
     ts = ts_now()
+    account_status = str(account_info.get("status", "connected"))
+    account_equity = float(account_info["equity"])
 
     decision_row = pd.DataFrame(
         [
             {
                 "timestamp_utc": ts,
                 **decision,
-                "equity": account_info["equity"],
+                "account_status": account_status,
+                "portfolio_value": account_equity,
+                "equity": account_equity,
                 "cash": account_info["cash"],
             }
         ]
@@ -57,7 +61,9 @@ def log_outputs(
         [
             {
                 "timestamp_utc": ts,
-                "equity": account_info["equity"],
+                "account_status": account_status,
+                "portfolio_value": account_equity,
+                "equity": account_equity,
                 "cash": account_info["cash"],
                 "long_value": account_info["long_value"],
                 "short_value": account_info["short_value"],
@@ -105,6 +111,10 @@ def log_outputs(
         LOG_DIR / "health" / "health_status.json",
         {
             "timestamp_utc": ts,
+            "account_status": account_status,
+            "portfolio_value": account_equity,
+            "equity": account_equity,
+            "cash": account_info["cash"],
             "decision": decision,
             "account": account_info,
             "sentiment_rows": int(len(sentiment_rows)),

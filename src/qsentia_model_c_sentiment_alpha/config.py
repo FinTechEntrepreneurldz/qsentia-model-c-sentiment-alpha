@@ -35,7 +35,7 @@ def env_int(name: str, default: int) -> int:
 class RuntimeConfig:
     data_period: str = os.environ.get("DATA_PERIOD", "2y")
     submit_orders: bool = env_bool("SUBMIT_ORDERS", True)
-    default_account_value: float = env_float("DEFAULT_ACCOUNT_VALUE", 100_000.0)
+    default_account_value: float = env_float("DEFAULT_ACCOUNT_VALUE", 1_000_000.0)
     min_trade_notional: float = env_float("MIN_TRADE_NOTIONAL", 250.0)
     rebalance_days: int = env_int("REBALANCE_DAYS", 5)
 
