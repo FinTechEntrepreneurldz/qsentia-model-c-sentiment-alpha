@@ -2,9 +2,9 @@
   "account": {
     "buying_power": 0.0,
     "cash": 202694.8,
-    "equity": 996883.23,
-    "long_value": 1382630.09,
-    "short_value": -588441.66,
+    "equity": 994982.61,
+    "long_value": 1382131.05,
+    "short_value": -589843.25,
     "status": "AccountStatus.ACTIVE"
   },
   "account_status": "AccountStatus.ACTIVE",
@@ -72,10 +72,10 @@
       "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=CF&region=US&lang=en-US"
     },
     {
-      "entries": 32,
+      "entries": 29,
       "error": null,
       "http_status": 200,
-      "kept": 32,
+      "kept": 29,
       "source": "google_news",
       "symbol": "CF",
       "url": "https://news.google.com/rss/search?q=%22CF%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
@@ -108,10 +108,10 @@
       "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=INTU&region=US&lang=en-US"
     },
     {
-      "entries": 36,
+      "entries": 32,
       "error": null,
       "http_status": 200,
-      "kept": 36,
+      "kept": 32,
       "source": "google_news",
       "symbol": "INTU",
       "url": "https://news.google.com/rss/search?q=%22INTU%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
@@ -144,10 +144,10 @@
       "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=COP&region=US&lang=en-US"
     },
     {
-      "entries": 23,
+      "entries": 24,
       "error": null,
       "http_status": 200,
-      "kept": 23,
+      "kept": 24,
       "source": "google_news",
       "symbol": "COP",
       "url": "https://news.google.com/rss/search?q=%22COP%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
@@ -162,10 +162,10 @@
       "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=NOW&region=US&lang=en-US"
     },
     {
-      "entries": 31,
+      "entries": 38,
       "error": null,
       "http_status": 200,
-      "kept": 31,
+      "kept": 38,
       "source": "google_news",
       "symbol": "NOW",
       "url": "https://news.google.com/rss/search?q=%22NOW%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
@@ -192,16 +192,16 @@
       "entries": 20,
       "error": null,
       "http_status": 200,
-      "kept": 5,
+      "kept": 6,
       "source": "yahoo",
       "symbol": "LEN",
       "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=LEN&region=US&lang=en-US"
     },
     {
-      "entries": 4,
+      "entries": 5,
       "error": null,
       "http_status": 200,
-      "kept": 4,
+      "kept": 5,
       "source": "google_news",
       "symbol": "LEN",
       "url": "https://news.google.com/rss/search?q=%22LEN%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
@@ -216,39 +216,21 @@
       "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=DVN&region=US&lang=en-US"
     },
     {
-      "entries": 0,
+      "entries": 10,
       "error": null,
       "http_status": 200,
-      "kept": 0,
+      "kept": 6,
       "source": "google_news",
       "symbol": "DVN",
       "url": "https://news.google.com/rss/search?q=%22DVN%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "entries": 20,
-      "error": null,
-      "http_status": 200,
-      "kept": 4,
-      "source": "yahoo",
-      "symbol": "HUM",
-      "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=HUM&region=US&lang=en-US"
-    },
-    {
-      "entries": 6,
-      "error": null,
-      "http_status": 200,
-      "kept": 5,
-      "source": "google_news",
-      "symbol": "HUM",
-      "url": "https://news.google.com/rss/search?q=%22HUM%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
     }
   ],
-  "equity": 996883.23,
-  "portfolio_value": 996883.23,
+  "equity": 994982.61,
+  "portfolio_value": 994982.61,
   "sentiment_rows": 300,
   "sentiment_sources": {
-    "google_news": 195,
-    "yahoo": 105
+    "google_news": 198,
+    "yahoo": 102
   },
-  "timestamp_utc": "2026-05-28T21:11:55+00:00"
+  "timestamp_utc": "2026-05-28T21:34:26+00:00"
 }
