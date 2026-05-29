@@ -3,3 +3,4 @@ timestamp_utc,action,do_rebalance,submit_orders,sentiment_used,sentiment_engine,
 2026-05-28T21:11:55+00:00,hold,False,True,True,lexicon,300,40,0,0,0,0.0,0.0,0.0,ok,AccountStatus.ACTIVE,996883.23,996883.23,202694.8
 2026-05-28T21:34:26+00:00,hold,False,True,True,lexicon,300,40,0,0,0,0.0,0.0,0.0,ok,AccountStatus.ACTIVE,994982.61,994982.61,202694.8
 2026-05-29T20:07:43+00:00,hold,False,True,True,lexicon,300,40,0,0,0,0.0,0.0,0.0,ok,AccountStatus.ACTIVE,1001994.77,1001994.77,173952.62
+2026-05-29T21:24:57+00:00,hold,False,True,True,lexicon,300,40,0,0,0,0.0,0.0,0.0,ok,AccountStatus.ACTIVE,1002404.09,1002404.09,173952.62
