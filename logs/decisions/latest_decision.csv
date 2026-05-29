@@ -1,2 +1,2 @@
 timestamp_utc,action,do_rebalance,submit_orders,sentiment_used,sentiment_engine,sentiment_rows,sentiment_symbols,n_target_positions,n_planned_orders,n_submitted_orders,gross_exposure,long_exposure,short_exposure,status,account_status,portfolio_value,equity,cash
-2026-05-28T21:34:26+00:00,hold,False,True,True,lexicon,300,40,0,0,0,0.0,0.0,0.0,ok,AccountStatus.ACTIVE,994982.61,994982.61,202694.8
+2026-05-29T20:07:43+00:00,hold,False,True,True,lexicon,300,40,0,0,0,0.0,0.0,0.0,ok,AccountStatus.ACTIVE,1001994.77,1001994.77,173952.62

@@ -1,14 +1,14 @@
 {
   "account": {
-    "buying_power": 0.0,
-    "cash": 202694.8,
-    "equity": 994982.61,
-    "long_value": 1382131.05,
-    "short_value": -589843.25,
+    "buying_power": 1056442.13,
+    "cash": 173952.62,
+    "equity": 1001994.77,
+    "long_value": 887794.78,
+    "short_value": -59752.63,
     "status": "AccountStatus.ACTIVE"
   },
   "account_status": "AccountStatus.ACTIVE",
-  "cash": 202694.8,
+  "cash": 173952.62,
   "decision": {
     "action": "hold",
     "do_rebalance": false,
@@ -30,55 +30,19 @@
       "entries": 20,
       "error": null,
       "http_status": 200,
-      "kept": 5,
+      "kept": 3,
       "source": "yahoo",
       "symbol": "APA",
       "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=APA&region=US&lang=en-US"
     },
     {
-      "entries": 12,
+      "entries": 9,
       "error": null,
       "http_status": 200,
-      "kept": 12,
+      "kept": 9,
       "source": "google_news",
       "symbol": "APA",
       "url": "https://news.google.com/rss/search?q=%22APA%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "entries": 20,
-      "error": null,
-      "http_status": 200,
-      "kept": 3,
-      "source": "yahoo",
-      "symbol": "LYB",
-      "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=LYB&region=US&lang=en-US"
-    },
-    {
-      "entries": 4,
-      "error": null,
-      "http_status": 200,
-      "kept": 4,
-      "source": "google_news",
-      "symbol": "LYB",
-      "url": "https://news.google.com/rss/search?q=%22LYB%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "entries": 20,
-      "error": null,
-      "http_status": 200,
-      "kept": 4,
-      "source": "yahoo",
-      "symbol": "CF",
-      "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=CF&region=US&lang=en-US"
-    },
-    {
-      "entries": 29,
-      "error": null,
-      "http_status": 200,
-      "kept": 29,
-      "source": "google_news",
-      "symbol": "CF",
-      "url": "https://news.google.com/rss/search?q=%22CF%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
     },
     {
       "entries": 20,
@@ -102,7 +66,97 @@
       "entries": 20,
       "error": null,
       "http_status": 200,
-      "kept": 15,
+      "kept": 3,
+      "source": "yahoo",
+      "symbol": "LYB",
+      "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=LYB&region=US&lang=en-US"
+    },
+    {
+      "entries": 5,
+      "error": null,
+      "http_status": 200,
+      "kept": 5,
+      "source": "google_news",
+      "symbol": "LYB",
+      "url": "https://news.google.com/rss/search?q=%22LYB%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "entries": 20,
+      "error": null,
+      "http_status": 200,
+      "kept": 2,
+      "source": "yahoo",
+      "symbol": "TTD",
+      "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=TTD&region=US&lang=en-US"
+    },
+    {
+      "entries": 9,
+      "error": null,
+      "http_status": 200,
+      "kept": 9,
+      "source": "google_news",
+      "symbol": "TTD",
+      "url": "https://news.google.com/rss/search?q=%22TTD%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "entries": 20,
+      "error": null,
+      "http_status": 200,
+      "kept": 1,
+      "source": "yahoo",
+      "symbol": "APTV",
+      "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=APTV&region=US&lang=en-US"
+    },
+    {
+      "entries": 8,
+      "error": null,
+      "http_status": 200,
+      "kept": 8,
+      "source": "google_news",
+      "symbol": "APTV",
+      "url": "https://news.google.com/rss/search?q=%22APTV%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "entries": 20,
+      "error": null,
+      "http_status": 200,
+      "kept": 16,
+      "source": "yahoo",
+      "symbol": "ACN",
+      "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=ACN&region=US&lang=en-US"
+    },
+    {
+      "entries": 7,
+      "error": null,
+      "http_status": 200,
+      "kept": 7,
+      "source": "google_news",
+      "symbol": "ACN",
+      "url": "https://news.google.com/rss/search?q=%22ACN%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "entries": 20,
+      "error": null,
+      "http_status": 200,
+      "kept": 1,
+      "source": "yahoo",
+      "symbol": "BAX",
+      "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=BAX&region=US&lang=en-US"
+    },
+    {
+      "entries": 4,
+      "error": null,
+      "http_status": 200,
+      "kept": 4,
+      "source": "google_news",
+      "symbol": "BAX",
+      "url": "https://news.google.com/rss/search?q=%22BAX%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "entries": 20,
+      "error": null,
+      "http_status": 200,
+      "kept": 17,
       "source": "yahoo",
       "symbol": "INTU",
       "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=INTU&region=US&lang=en-US"
@@ -120,70 +174,70 @@
       "entries": 20,
       "error": null,
       "http_status": 200,
+      "kept": 6,
+      "source": "yahoo",
+      "symbol": "CF",
+      "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=CF&region=US&lang=en-US"
+    },
+    {
+      "entries": 27,
+      "error": null,
+      "http_status": 200,
+      "kept": 27,
+      "source": "google_news",
+      "symbol": "CF",
+      "url": "https://news.google.com/rss/search?q=%22CF%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "entries": 20,
+      "error": null,
+      "http_status": 200,
+      "kept": 6,
+      "source": "yahoo",
+      "symbol": "CTSH",
+      "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=CTSH&region=US&lang=en-US"
+    },
+    {
+      "entries": 16,
+      "error": null,
+      "http_status": 200,
+      "kept": 16,
+      "source": "google_news",
+      "symbol": "CTSH",
+      "url": "https://news.google.com/rss/search?q=%22CTSH%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "entries": 20,
+      "error": null,
+      "http_status": 200,
       "kept": 0,
       "source": "yahoo",
-      "symbol": "TTD",
-      "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=TTD&region=US&lang=en-US"
+      "symbol": "ROP",
+      "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=ROP&region=US&lang=en-US"
     },
     {
-      "entries": 10,
+      "entries": 8,
       "error": null,
       "http_status": 200,
-      "kept": 10,
+      "kept": 8,
       "source": "google_news",
-      "symbol": "TTD",
-      "url": "https://news.google.com/rss/search?q=%22TTD%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+      "symbol": "ROP",
+      "url": "https://news.google.com/rss/search?q=%22ROP%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
     },
     {
       "entries": 20,
       "error": null,
       "http_status": 200,
-      "kept": 14,
-      "source": "yahoo",
-      "symbol": "COP",
-      "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=COP&region=US&lang=en-US"
-    },
-    {
-      "entries": 24,
-      "error": null,
-      "http_status": 200,
-      "kept": 24,
-      "source": "google_news",
-      "symbol": "COP",
-      "url": "https://news.google.com/rss/search?q=%22COP%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "entries": 20,
-      "error": null,
-      "http_status": 200,
-      "kept": 13,
-      "source": "yahoo",
-      "symbol": "NOW",
-      "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=NOW&region=US&lang=en-US"
-    },
-    {
-      "entries": 38,
-      "error": null,
-      "http_status": 200,
-      "kept": 38,
-      "source": "google_news",
-      "symbol": "NOW",
-      "url": "https://news.google.com/rss/search?q=%22NOW%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "entries": 20,
-      "error": null,
-      "http_status": 200,
-      "kept": 13,
+      "kept": 11,
       "source": "yahoo",
       "symbol": "OXY",
       "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=OXY&region=US&lang=en-US"
     },
     {
-      "entries": 13,
+      "entries": 14,
       "error": null,
       "http_status": 200,
-      "kept": 13,
+      "kept": 14,
       "source": "google_news",
       "symbol": "OXY",
       "url": "https://news.google.com/rss/search?q=%22OXY%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
@@ -192,16 +246,16 @@
       "entries": 20,
       "error": null,
       "http_status": 200,
-      "kept": 6,
+      "kept": 5,
       "source": "yahoo",
       "symbol": "LEN",
       "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=LEN&region=US&lang=en-US"
     },
     {
-      "entries": 5,
+      "entries": 6,
       "error": null,
       "http_status": 200,
-      "kept": 5,
+      "kept": 6,
       "source": "google_news",
       "symbol": "LEN",
       "url": "https://news.google.com/rss/search?q=%22LEN%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
@@ -210,27 +264,72 @@
       "entries": 20,
       "error": null,
       "http_status": 200,
-      "kept": 9,
+      "kept": 3,
+      "source": "yahoo",
+      "symbol": "HUM",
+      "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=HUM&region=US&lang=en-US"
+    },
+    {
+      "entries": 8,
+      "error": null,
+      "http_status": 200,
+      "kept": 8,
+      "source": "google_news",
+      "symbol": "HUM",
+      "url": "https://news.google.com/rss/search?q=%22HUM%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "entries": 20,
+      "error": null,
+      "http_status": 200,
+      "kept": 3,
+      "source": "yahoo",
+      "symbol": "FISV",
+      "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=FISV&region=US&lang=en-US"
+    },
+    {
+      "entries": 6,
+      "error": null,
+      "http_status": 200,
+      "kept": 6,
+      "source": "google_news",
+      "symbol": "FISV",
+      "url": "https://news.google.com/rss/search?q=%22FISV%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "entries": 20,
+      "error": null,
+      "http_status": 200,
+      "kept": 7,
       "source": "yahoo",
       "symbol": "DVN",
       "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=DVN&region=US&lang=en-US"
     },
     {
-      "entries": 10,
+      "entries": 11,
       "error": null,
       "http_status": 200,
-      "kept": 6,
+      "kept": 11,
       "source": "google_news",
       "symbol": "DVN",
       "url": "https://news.google.com/rss/search?q=%22DVN%22+stock+shares+earnings+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "entries": 20,
+      "error": null,
+      "http_status": 200,
+      "kept": 1,
+      "source": "yahoo",
+      "symbol": "FANG",
+      "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=FANG&region=US&lang=en-US"
     }
   ],
-  "equity": 994982.61,
-  "portfolio_value": 994982.61,
+  "equity": 1001994.77,
+  "portfolio_value": 1001994.77,
   "sentiment_rows": 300,
   "sentiment_sources": {
-    "google_news": 198,
-    "yahoo": 102
+    "google_news": 195,
+    "yahoo": 105
   },
-  "timestamp_utc": "2026-05-28T21:34:26+00:00"
+  "timestamp_utc": "2026-05-29T20:07:43+00:00"
 }
